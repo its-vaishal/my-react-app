@@ -1,0 +1,68 @@
+/* Navbar styling */
+.custom-navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  padding: 0.7rem 1rem;
+}
+
+/* Brand */
+.brand-name {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+.nav-link-custom {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ffe484 !important;
+}
+
+/* Search bar styling */
+.search-form {
+  align-items: center;
+}
+
+.search-input {
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+  border: none;
+}
+
+.search-btn {
+  border-radius: 30px;
+  font-weight: 500;
+  color: #0d6efd;
+  background-color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sticky navbar */
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .search-form {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .nav-links {
+    text-align: center;
+  }
+}
